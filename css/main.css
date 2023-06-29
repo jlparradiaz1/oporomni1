@@ -1,0 +1,55 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: rgb(168, 84, 247);
+}
+
+nav {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: rgb(205, 159, 248);
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  
+}
+
+#info1 {
+  background: rgb(168, 84, 247);
+  padding: 20px 0 20px 0;
+  text-align:left;
+  margin-top: 10px;
+}
+
+#info-one {
+  background: rgb(168, 84, 247);
+  padding: 1px 0 1px 0;
+  text-align:left;
+  margin-top: 1px;
+}
+
+.info-right{
+  background: rgb(205, 159, 248);
+  color: rgb(58, 0, 217);
+  font: 400;
+  padding: 20px 0 20px 0;
+  text-align:left;
+  margin-top: 10px;
+}
+
+.video-responsive {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 15px;
+  position: relative;
+}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
